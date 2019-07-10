@@ -1,0 +1,23 @@
+##Algorithm
+
+
+#1. Start-Up
+Step1: Initialize the application.
+Step2: Browse the video locally.
+Step3: Open video in picture box.
+Step4: Apply motion detection.
+Step5: If (applied) Goto Pre-processing
+6.4.3 Pre-Processing
+Step1: Apply number of patches specified 
+Step2: Store the images in the database 
+Step3: select the patch for object detection
+6.4.4 Object Recognition 
+Step1: Perform object recognition using Convolutional neural network.
+Step2: Show recognized object name from label.txt.
+Step3: Send the data to next step.
+Step4: Stop.
+6.4.5 Obstacle Warning.
+Step1: Receive the labels 
+Step2: if (object detected = obstacle) Go to: Step3 else Go to: step4
+Step3: Display “warning as stop” to end-user 
+Step4: Display “safe to move”

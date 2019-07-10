@@ -1,0 +1,8 @@
+car
+cow
+cyclist
+dog
+motorcycle
+people
+road
+sky
